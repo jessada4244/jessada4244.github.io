@@ -243,7 +243,33 @@
 </section>
 
 
+<script>
 
+const slider = document.getElementById("projectSlider")
+
+function nextProject(){
+
+slider.scrollBy({
+
+left:300,
+behavior:"smooth"
+
+})
+
+}
+
+function prevProject(){
+
+slider.scrollBy({
+
+left:-300,
+behavior:"smooth"
+
+})
+
+}
+
+</script>
 <footer>
 
 <p>© 2026 Jessada Thathom</p>
