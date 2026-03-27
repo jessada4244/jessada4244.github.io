@@ -21,7 +21,6 @@
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
 <li><a href="#education">Education</a></li>
 </ul>
 
@@ -38,7 +37,16 @@
 
 <h1>Jessada Thathom</h1>
 
-<h3>Software Engineer / IoT Engineer</h3>
+<h3>สนใจตำแหน่งงาน Software Engineer / IoT Engineer / IT Support</h3>
+
+<h2>Contact</h2>
+
+<p>Phone: 080-0977083</p>
+
+<p>Email: jessada.thathom@gmail.com</p>
+
+<p>Line: tata..tata</p>
+
 
 <p>
 นักศึกษาจบใหม่
@@ -96,16 +104,10 @@
 
 <h2>Projects</h2>
 
-<div class="project-container">
-
-<button class="nav-btn" onclick="prevProject()">❮</button>
-
-<div class="projects-wrapper" id="projectSlider">
-
 
 <div class="card">
 
-<div class="/image/led.png"></div>
+<img src="image/led.png" alt="Smart LED Matrix" class="project-image">
 
 <h3>ระบบ Smart LED Matrix</h3>
 
@@ -118,7 +120,7 @@
 
 <div class="card">
 
-<div class="/image/hydro.png"></div>
+<img src="image/hydro.png" alt="Hydroponics System" class="project-image">
 
 <h3>ระบบปลูกผักไฮโดรโปรนิกส์อัตโนมัติ</h3>
 
@@ -131,7 +133,7 @@
 
 <div class="card">
 
-<div class="/image/qr.png"></div>
+<img src="image/qr.png" alt="QR Code Attendance" class="project-image">
 
 <h3>ระบบเช็คชื่อผ่าน QR Code บน Line OA</h3>
 
@@ -144,7 +146,7 @@
 
 <div class="card">
 
-<div class="/image/nfc.png"></div>
+<img src="image/nfc.png" alt="NFC Easy Porter" class="project-image">
 
 <h3>NFC Easy Porter</h3>
 
@@ -157,7 +159,7 @@
 
 <div class="card">
 
-<div class="/image/alumni.png"></div>
+<img src="image/alumni.png" alt="Alumni Website" class="project-image">
 
 <h3>Alumni Website</h3>
 
@@ -168,11 +170,6 @@
 </div>
 
 
-</div>
-
-<button class="nav-btn" onclick="nextProject()">❯</button>
-
-</div>
 
 </section>
 
@@ -229,46 +226,9 @@
 </section>
 
 
-<section id="contact" class="section">
-
-<h2>Contact</h2>
-
-<p>Phone: 080-0977083</p>
-
-<p>Email: jessada.thathom@gmail.com</p>
-
-<p>Line: tata..tata</p>
-
-</section>
 
 
-<script>
 
-const slider = document.getElementById("projectSlider")
-
-function nextProject(){
-
-slider.scrollBy({
-
-left:300,
-behavior:"smooth"
-
-})
-
-}
-
-function prevProject(){
-
-slider.scrollBy({
-
-left:-300,
-behavior:"smooth"
-
-})
-
-}
-
-</script>
 <footer>
 
 <p>© 2026 Jessada Thathom</p>
