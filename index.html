@@ -8,13 +8,15 @@
 <title>Jessada Thathom | Portfolio</title>
 
 <link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
 </head>
 
 <body>
 
 <nav class="navbar">
 
-<h2 class="logo">Jessada</h2>
+<h2 class="logo">Jessada Thathom</h2>
 
 <ul>
 
@@ -35,41 +37,36 @@
 
 <div class="hero-text">
 
-<h1>Jessada Thathom</h1>
+<h1>เจษฎา ถาโถม</h1>
+<p>
+(นักศึกษาจบใหม่)
+</p>
 
 <h3>สนใจตำแหน่งงาน Software Engineer / IoT Engineer / IT Support</h3>
 
-<h2>Contact</h2>
+<h2>ข้อมูลติดต่อ</h2>
 
-<p>Phone: 080-0977083</p>
+<p><i class="bi bi-telephone"></i> 080-0977083</p>
 
-<p>Email: jessada.thathom@gmail.com</p>
+<p><i class="bi bi-envelope"></i> jessada.thathom@gmail.com</p>
 
-<p>Line: tata..tata</p>
-
-
-<p>
-นักศึกษาจบใหม่
-</p>
+<p><i class="bi bi-chat"></i> tata..tata</p>
 
 <a href="https://github.com/jessada4244" class="btn">GitHub</a>
 
 </div>
-
 </div>
 
 </section>
-
-
 
 <section id="about" class="section">
 
 <h2>About Me</h2>
 
-<p>
+<h3>
 สำเร็จการศึกษาจากสาขาวิศวกรรมคอมพิวเตอร์ มีพื้นฐานด้านการพัฒนาซอฟต์แวร์ และด้าน IoT มีประสบการณ์พัฒนาซอฟต์แวร์ และพัฒนาระบบ IoT ที่เชื่อมต่อระหว่าง Hardware, Sensor, Database และ Application มีความเคิดเชิงตรรกะ สามารถวิเคราะห์ออกแบบระบบ ทดสอบ และการแก้ปัญหา พร้อมเรียนรู้เทคโนโลยีใหม่เพื่อเติบโตในสายงาน
 
-</p>
+</h3>
 
 </section>
 
@@ -86,10 +83,10 @@
 <span>HTML</span>
 <span>CSS</span>
 <span>JavaScript</span>
+<span>MySQL</span>
 <span>Arduino</span>
 <span>ESP32</span>
 <span>Raspberry Pi</span>
-<span>MySQL</span>
 <span>Firebase</span>
 <span>Git</span>
 
@@ -112,7 +109,7 @@
 
 <div class="card">
 
-<img src="image/led.png" alt="Smart LED Matrix" class="project-image">
+<img src="image/led.png" alt="Smart LED Matrix" class="project-image" onclick="openModal(this)">
 
 <h3>ระบบ Smart LED Matrix</h3>
 
@@ -125,7 +122,7 @@
 
 <div class="card">
 
-<img src="image/hydro.png" alt="Hydroponics System" class="project-image">
+<img src="image/hydro.png" alt="Hydroponics System" class="project-image" onclick="openModal(this)">
 
 <h3>ระบบปลูกผักไฮโดรโปรนิกส์อัตโนมัติ</h3>
 
@@ -138,7 +135,7 @@
 
 <div class="card">
 
-<img src="image/qr.png" alt="QR Code Attendance" class="project-image">
+<img src="image/qr.png" alt="QR Code Attendance" class="project-image" onclick="openModal(this)">
 
 <h3>ระบบเช็คชื่อผ่าน QR Code บน Line OA</h3>
 
@@ -151,7 +148,7 @@
 
 <div class="card">
 
-<img src="image/nfc.png" alt="NFC Easy Porter" class="project-image">
+<img src="image/nfc.png" alt="NFC Easy Porter" class="project-image" onclick="openModal(this)">
 
 <h3>NFC Easy Porter</h3>
 
@@ -164,7 +161,7 @@
 
 <div class="card">
 
-<img src="image/alumni.png" alt="Alumni Website" class="project-image">
+<img src="image/alumni.png" alt="Alumni Website" class="project-image" onclick="openModal(this)">
 
 <h3>Alumni Website</h3>
 
@@ -191,43 +188,38 @@
 <div class="education">
 
 <div class="edu-card">
-
-<h3>Computer Engineering</h3>
-
-<p>Rajamangala University of Technology Lanna, Tak</p>
-
-<p>2022 – 2026</p>
-
+<img src="image/rmutl.jpg" alt="RMUTL Logo" class="edu-logo">
+<div class="edu-info">
+<h3>ปริญญาตรี</h3>
+<p>วศ.บ. วิศวกรรมคอมพิวเตอร์</p>
+<p>มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา ตาก</p>
+<p>ปีการศึกษา 2022 – 2026</p>
 <p>GPA: 2.89 (รอรับใบ)</p>
-
+</div>
 </div>
 
 
 
 <div class="edu-card">
-
-<h3>Higher Vocational Certificate</h3>
-
-<p>Computer Software</p>
-
-<p>Phrae Technical College</p>
-
+<img src="image/ptc.jpeg" alt="PTC Logo" class="edu-logo">
+<div class="edu-info">
+<h3>ประกาศวิชาชีพชั้นสูง</h3>
+<p>คอมพิวเตอร์ซอฟต์แวร์</p>
+<p>วิทยาลัยเทคนิคแพร่</p>
 <p>GPA: 3.69</p>
-
+</div>
 </div>
 
 
 
 <div class="edu-card">
-
-<h3>Vocational Certificate</h3>
-
-<p>Computer Technology</p>
-
-<p>Phrae Technical College</p>
-
+<img src="image/ptc.jpeg" alt="PTC Logo" class="edu-logo">
+<div class="edu-info">
+<h3>ประกาศวิชาชีพ</h3>
+<p>เทคนิคคอมพิวเตอร์</p>
+<p>วิทยาลัยเทคนิคแพร่</p>
 <p>GPA: 3.54</p>
-
+</div>
 </div>
 
 </div>
@@ -244,5 +236,63 @@
 
 </footer>
 
+<!-- Image Modal -->
+<div id="imageModal" class="modal" onclick="closeModal(event)">
+<button class="modal-close" onclick="closeModal()">&times;</button>
+<div class="modal-content">
+<img id="modalImage" class="modal-image" alt="">
+</div>
+</div>
+
+<script>
+
+const slider = document.getElementById("projectSlider")
+
+function nextProject(){
+
+slider.scrollBy({
+
+left:300,
+behavior:"smooth"
+
+})
+
+}
+
+function prevProject(){
+
+slider.scrollBy({
+
+left:-300,
+behavior:"smooth"
+
+})
+
+}
+
+function openModal(imgElement) {
+  const modal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+  modalImage.src = imgElement.src;
+  modalImage.alt = imgElement.alt;
+  modal.classList.add("active");
+}
+
+function closeModal(event) {
+  const modal = document.getElementById("imageModal");
+  if (event && event.target !== modal) return;
+  modal.classList.remove("active");
+}
+
+// Close modal when pressing Escape key
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeModal();
+  }
+});
+
+</script>
+
 </body>
+</html>
 </html>
