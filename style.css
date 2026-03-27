@@ -1,121 +1,202 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial;
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+
 }
 
-body {
-    background: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+body{
+
+background:#0f172a;
+color:white;
+
 }
 
-header {
-    background: #1f1f1f;
-    color: white;
-    text-align: center;
-    padding: 40px;
+/* navbar */
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 10%;
+
+background:#020617;
+
 }
 
-.contact {
-    margin-top: 15px;
+.navbar ul{
+
+display:flex;
+list-style:none;
+
 }
 
-section {
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px 20px;
+.navbar li{
+
+margin-left:25px;
+
 }
 
-h2 {
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
+.navbar a{
+
+color:white;
+text-decoration:none;
+
 }
+
+
+/* hero */
+
+.hero{
+
+height:80vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h3{
+
+color:#38bdf8;
+margin:10px 0;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:12px 25px;
+
+background:#38bdf8;
+
+color:black;
+
+text-decoration:none;
+
+border-radius:6px;
+
+}
+
+
+/* section */
+
+.section{
+
+padding:80px 10%;
+
+}
+
+.section h2{
+
+margin-bottom:30px;
+
+font-size:30px;
+
+}
+
 
 /* skills */
 
-.skills span {
+.skills span{
 
-    display: inline-block;
-    background: #0077ff;
-    color: white;
+display:inline-block;
 
-    padding: 8px 15px;
-    margin: 5px;
+background:#1e293b;
 
-    border-radius: 5px;
+padding:10px 15px;
 
-    font-size: 14px;
+margin:5px;
 
-}
-
-
-/* project */
-
-.project {
-
-    display: flex;
-    gap: 20px;
-
-    background: white;
-
-    padding: 20px;
-    margin-bottom: 20px;
-
-    border-radius: 8px;
-
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+border-radius:6px;
 
 }
 
-.image {
 
-    width: 250px;
-    height: 150px;
+/* projects */
 
-    border: 2px dashed #ccc;
+.projects-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
 
 }
 
-.info {
+.card{
 
-    flex: 1;
+background:#1e293b;
+
+padding:20px;
+
+border-radius:10px;
+
+}
+
+.image{
+
+height:150px;
+
+border:2px dashed #475569;
+
+margin-bottom:15px;
 
 }
 
 
 /* footer */
 
-footer {
+footer{
 
-    background: #1f1f1f;
-    color: white;
+text-align:center;
 
-    text-align: center;
+padding:20px;
 
-    padding: 20px;
+background:#020617;
 
-    margin-top: 40px;
+margin-top:40px;
 
 }
 
 
 /* mobile */
 
-@media(max-width:768px) {
+@media(max-width:768px){
 
-    .project {
+.hero h1{
 
-        flex-direction: column;
+font-size:36px;
 
-    }
+}
 
-    .image {
+.navbar{
 
-        width: 100%;
+flex-direction:column;
 
-    }
+}
+
+.navbar ul{
+
+margin-top:10px;
+
+}
 
 }
